@@ -3,6 +3,7 @@
 const fs = require('fs');
 const { lstat } = fs.promises;
 const chalk = require('chalk');
+const path = require('path');
 
 const targetDir = process.argv[2] || process.cwd();
 
